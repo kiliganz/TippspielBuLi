@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "983306291125",
+    "firebase_url": "https://bulitipper-f7577.firebaseio.com",
+    "project_id": "bulitipper-f7577",
+    "storage_bucket": "bulitipper-f7577.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983306291125:android:187cd590961d7849",
+        "android_client_info": {
+          "package_name": "kilianganz.buli_tippspiel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983306291125-rapq8l9qcr9h582oqn9qnqt29r0g7ssm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kilianganz.buli_tippspiel",
+            "certificate_hash": "d93172a3cd3c81613297497e7c5c6417c72428e3"
+          }
+        },
+        {
+          "client_id": "983306291125-3ocmnv1aef4prbp530jaeej05c0sri7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1xh8-b_RD4yaHOhycFqYD4Ld8q0RMJOw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983306291125-3ocmnv1aef4prbp530jaeej05c0sri7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

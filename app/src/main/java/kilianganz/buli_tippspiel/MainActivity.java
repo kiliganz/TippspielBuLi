@@ -1,5 +1,6 @@
 package kilianganz.buli_tippspiel;
 
+import android.content.Intent;
 import android.preference.EditTextPreference;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -29,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
         mLoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                Intent startMain = new Intent(MainActivity.this, StartActivity.class);
+                startActivity(startMain);
 
             }
         });

@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+
+
 public class StartActivity extends AppCompatActivity {
 
     @Override
@@ -12,5 +14,15 @@ public class StartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_start);
 
         Log.d("Testausgabe", "funktioniert");
+        calculateResult calc = new calculateResult();
+        Log.d("Test: ", "" + calc);
+
+
+
+
+        //Testausgabe loggen
+
+
+
     }
 }

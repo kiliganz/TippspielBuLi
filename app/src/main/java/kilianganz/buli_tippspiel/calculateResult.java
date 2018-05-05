@@ -1,5 +1,7 @@
 package kilianganz.buli_tippspiel;
 
+import android.util.Log;
+
 import java.util.ArrayList;
 
 public class calculateResult {
@@ -69,6 +71,9 @@ public class calculateResult {
                     result += " - ";
                 }
             }
+            Log.d("Tipp: ", tipp );
+            Log.d("Ergebnis: ", result );
+
             if (draw) {
                 if (tempTip.get(0) == tempTip.get(0)) {
                     sumPts += drawPts;
@@ -87,6 +92,7 @@ public class calculateResult {
 
 
         }
+        Log.d("Summe: ","i = " + sumPts );
         return sumPts;
     }
 }
